@@ -9,7 +9,7 @@
     "start":"node src/index.js"
   },
   "keywords": [],
-  "author": "BenjiCS!",
+  "author": "BenjiCS",
   "license": "ISC",
   "dependencies": {
     "command-handler": "git@github.com:BenjiCS/Discord-bot-cmdH.git",
