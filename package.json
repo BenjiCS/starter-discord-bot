@@ -12,7 +12,7 @@
   "author": "BenjiCS",
   "license": "ISC",
   "dependencies": {
-    "command-handler": "github:BenjiCS/Discord-bot-cmdH",
+    "command-handler": "git@github.com:BenjiCS/Discord-bot-cmdH.git",
     "commander": "^9.5.0",
     "discord.js": "^14.11.0",
     "dotenv": "^16.0.3",
