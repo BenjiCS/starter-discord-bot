@@ -2,28 +2,21 @@
   "name": "starter-discord-bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start":"node index.js"
+    "dev": "nodemon src/index.js",
+    "start":"node src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/korostelevm/starter-discord-bot.git"
-  },
-  "author": "",
+  "keywords": [],
+  "author": "BenjiCS",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/korostelevm/starter-discord-bot/issues"
-  },
-  "homepage": "https://github.com/korostelevm/starter-discord-bot#readme",
   "dependencies": {
-    "axios": "^0.27.2",
-    "body-parser": "^1.20.0",
-    "discord-interactions": "^3.2.0",
-    "dotenv": "^16.0.2",
-    "express": "^4.18.1"
+    "command-handler": "github:BenjiCS/Discord-bot-cmdH",
+    "commander": "^9.5.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.1.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
